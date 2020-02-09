@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c71da17a-f49f-4fb2-a88b-e48a5a9671b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/course/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/course/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/course/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,6 +54,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.Main" />
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />

@@ -16,6 +16,9 @@ public class Course {
     public String getName(){
         return this.name;
     }
+    public int getId() {
+        return id;
+    }
     //Add student to the list
     public void registerStudent(Student student){
         registeredStudents.add(student);

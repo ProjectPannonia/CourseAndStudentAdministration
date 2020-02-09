@@ -17,6 +17,9 @@ public class Student {
     public String getLastName(){
         return this.lastName;
     }
+    public int getId(){
+        return this.id;
+    }
     public void registerForCourse(Course course){
         course.registerStudent(this);
     }

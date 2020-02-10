@@ -39,14 +39,20 @@ public class testStudent {
     }
     @Test
     public void testRemoveCourseWithExistentCourseSecond(){
-        String expected = "Törölve.";
-        String result = s2.removeCourse("Földrajz");
+        String expected = s1.getFullName() + " nincs Földrajz nevű kurzusa.";
+        String result = s1.removeCourse("Földrajz");
         assertEquals(expected,result);
     }
     @Test
     public void testClearStudentCourseList(){
         String expected = "Felvett kurzusok törölve.";
         String result = s3.clearCourseList();
+        assertEquals(expected,result);
+    }
+    @Test
+    public void testClearStudentCourseListSecond(){
+        String expected = "Felvett kurzusok törölve.";
+        String result = s1.clearCourseList();
         assertEquals(expected,result);
     }
 

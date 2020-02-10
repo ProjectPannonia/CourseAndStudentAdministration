@@ -43,6 +43,12 @@ public class testStudent {
         String result = s2.removeCourse("Földrajz");
         assertEquals(expected,result);
     }
+    @Test
+    public void testClearStudentCourseList(){
+        String expected = "Felvett kurzusok törölve.";
+        String result = s3.clearCourseList();
+        assertEquals(expected,result);
+    }
 
     @After
     public void setToNull(){

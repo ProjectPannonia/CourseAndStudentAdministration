@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c71da17a-f49f-4fb2-a88b-e48a5a9671b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/course/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/course/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/course/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/course/testStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/course/testStudent.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testStudent">
+  <component name="RunManager" selected="JUnit.testStudent.testClearStudentCourseList">
     <configuration name="testStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="course" />
       <extension name="coverage">
@@ -69,6 +66,22 @@
       <option name="PACKAGE_NAME" value="com.course" />
       <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStudent.testClearStudentCourseList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
+      <option name="METHOD_NAME" value="testClearStudentCourseList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testStudent.testRemoveCourseWithExitentCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.course" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
-      <option name="METHOD_NAME" value="testRemoveCourseWithExitentCourse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="testStudent.testRemoveCourseWithNonExistentCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="course" />
       <extension name="coverage">
@@ -139,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testStudent.testClearStudentCourseList" />
         <item itemvalue="JUnit.testStudent" />
         <item itemvalue="JUnit.testStudent.testRemoveCourseWithExistentCourseSecond" />
         <item itemvalue="JUnit.testStudent.testRemoveCourseWithExistentCourse" />
         <item itemvalue="JUnit.testStudent.testRemoveCourseWithNonExistentCourse" />
-        <item itemvalue="JUnit.testStudent.testRemoveCourseWithExitentCourse" />
       </list>
     </recent_temporary>
   </component>

@@ -46,6 +46,10 @@ public class Student {
 
         return this.studentFirstName + " " + this.studentLastName + " nincs " + courseName + " nevű kurzusa.";
     }
+    public String clearCourseList(){
+        this.courses.clear();
+        return "Felvett kurzusok törölve.";
+    }
 
     public void getAllRegisteredCourses() {
         if (this.courses.isEmpty()) {
@@ -57,4 +61,5 @@ public class Student {
             }
         }
     }
+
 }

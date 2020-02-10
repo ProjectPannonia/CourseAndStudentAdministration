@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c71da17a-f49f-4fb2-a88b-e48a5a9671b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/course/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/course/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/course/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/course/MainTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +38,7 @@
   </component>
   <component name="ProjectId" id="1XZkIO8pbhW96WNmxqTtsewDCm9" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BmiCalculator_MOD" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -53,9 +57,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.Main" />
+  <component name="RunManager" selected="JUnit.testStudent">
+    <configuration name="testStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="course" />
       <extension name="coverage">
         <pattern>
@@ -63,13 +66,84 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.course" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStudent.testRemoveCourseWithExistentCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
+      <option name="METHOD_NAME" value="testRemoveCourseWithExistentCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStudent.testRemoveCourseWithExistentCourseSecond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
+      <option name="METHOD_NAME" value="testRemoveCourseWithExistentCourseSecond" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStudent.testRemoveCourseWithExitentCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
+      <option name="METHOD_NAME" value="testRemoveCourseWithExitentCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStudent.testRemoveCourseWithNonExistentCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testStudent" />
+      <option name="METHOD_NAME" value="testRemoveCourseWithNonExistentCourse" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.testStudent" />
+        <item itemvalue="JUnit.testStudent.testRemoveCourseWithExistentCourseSecond" />
+        <item itemvalue="JUnit.testStudent.testRemoveCourseWithExistentCourse" />
+        <item itemvalue="JUnit.testStudent.testRemoveCourseWithNonExistentCourse" />
+        <item itemvalue="JUnit.testStudent.testRemoveCourseWithExitentCourse" />
       </list>
     </recent_temporary>
   </component>
